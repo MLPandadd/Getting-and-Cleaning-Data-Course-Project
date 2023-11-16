@@ -136,3 +136,17 @@ average_activity_subject <- all_mean_std %>%
 write_csv(x = all_mean_std, file = paste0(getwd(), "/data/dataset_1_mean_and_std.csv"))
 
 write_csv(x = average_activity_subject, file = paste0(getwd(), "/data/dataset_2_average_activity_subject.csv"))
+
+write.table(x = average_activity_subject, file = paste0(getwd(), "/data/dataset_2_average_activity_subject.txt"),row.names = F)
+
+
+
+
+
+
+
+
+
+
+
+
